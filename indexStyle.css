@@ -1,0 +1,68 @@
+body,html
+{
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+                                  
+}
+
+.jumbotron
+{
+    background-image:url('pexels-photo-374897.jpeg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:100%;
+    margin-bottom: 0;
+}
+
+.nav
+{
+    position:absolute;
+    bottom:0;
+    color:brown;
+    font-size:30px;
+    background-color:darkgrey;
+        
+}
+
+li a{
+    color:aliceblue;
+}
+header
+{
+    text-align:right;
+    color:darkgrey;
+    margin-right:40px;
+}
+h1
+{
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    
+}
+p
+{
+    font-family: 'Lobster', cursive;
+    font-size:30px;
+}
+section
+{
+    text-align:right;
+    margin-right:40px;
+    
+}
+button
+{
+    width:300px;
+    font-family: 'Great Vibes', cursive;
+    font-size:25px !important;
+   
+}
+@media (min-width:350px){
+    
+    h1{font-size:20px;}
+    p{font-size:10px;}
+    
+}
+
