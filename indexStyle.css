@@ -65,11 +65,4 @@ button
     p{font-size:10px;}
     
 }
-@media (max-width:667px){
-    
-    .jumbotron h1{font-size:20px;}
-               p{font-size:10px;}
-    .jumbotron{height:auto;}
-    button{width:auto;}
-    
-}
+
