@@ -13,7 +13,7 @@ body,html
     background-size: contain;
     background-repeat: no-repeat;
     height:100%;
-    margin-bottom: 0; !important
+    margin-bottom: 0; 
 }
 
 .nav
@@ -67,7 +67,7 @@ button
 }
 @media (max-width:667px){
     
-    h1{font-size:20px;}
+    .jumbotron h1{font-size:20px;}
     p{font-size:10px;}
     
 }
