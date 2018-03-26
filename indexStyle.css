@@ -13,7 +13,7 @@ body,html
     background-size: contain;
     background-repeat: no-repeat;
     height:100%;
-    margin-bottom: 0;
+    margin-bottom: 0; !important
 }
 
 .nav
@@ -23,7 +23,7 @@ body,html
     color:brown;
     font-size:30px;
     background-color:darkgrey;
-        
+    margin-bottom: 0;   
 }
 
 li a{
@@ -65,4 +65,9 @@ button
     p{font-size:10px;}
     
 }
-
+@media (max-width:667px){
+    
+    h1{font-size:20px;}
+    p{font-size:10px;}
+    
+}
