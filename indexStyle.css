@@ -70,5 +70,6 @@ button
     .jumbotron h1{font-size:20px;}
                p{font-size:10px;}
     .jumbotron{height:auto;}
+    button{width:auto;}
     
 }
