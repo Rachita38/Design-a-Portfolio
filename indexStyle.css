@@ -28,6 +28,7 @@ body,html
 li a
 {
     color:aliceblue;
+    
 }
 header
 {
@@ -41,7 +42,7 @@ h1
     font-size: 50px;
     
 }
-p
+#typed
 {
     font-family: 'Lobster', cursive;
     font-size:30px;
@@ -68,17 +69,3 @@ button
     button{width:200px;}
     
 }
-/*@media (min-width:568px)
-{
-    h1{font-size:20px;}
-    p{font-size:10px;}
-    .nav{font-size:20px;}
-    
-}
-@media (max-width:667px)
-{
-    h1{font-size:20px;}
-    p{font-size:10px;}
-    .nav{font-size:20px;}
-}*/
-

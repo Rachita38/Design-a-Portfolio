@@ -18,15 +18,20 @@
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Lobster" rel="stylesheet">
       
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="lib/typed.js"></script>
   </head>
   <body>
 
 <div class="jumbotron">
     <header>
     <h1> Web Designer & Front-End Developer</h1>  
-       
-        <p> I have a Passion for the details.<br/>
-         I strive to make the design of everyday user experinces come to life</p>
+       <div id="typed-strings">
+           <p> I have a Passion for the details.</p>
+           <p>I strive to make the design of everyday user experinces come to life</p>
+        </div>
+        
+        <span id="typed"></span>
     </header>
     <section>
         <button type="button" class="btn btn-default navbar-btn" >View My profile</button>
@@ -41,5 +46,13 @@
   </ul>  
  </footer>
      
+<script>
+  var typed = new Typed('#typed', {
+                stringsElement: '#typed-strings',
+                typeSpeed:100,
+                backSpeed:100,
+                loop:true
+    });
+</script>
 </body>
 </html>
